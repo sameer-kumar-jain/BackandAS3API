@@ -11,6 +11,7 @@ public function httpRequest( response:* ):void
 {
 	trace("httpRequest",response)
 }
+
 public function httpFault( error:* ):void
 {
 	trace("httpFault", error )
